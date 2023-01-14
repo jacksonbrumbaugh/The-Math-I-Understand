@@ -16,7 +16,7 @@ I like to think of zero as an abstract numerical representation of having no qua
 
 Take a number line
 
-Zero acts as the common reference point to separate the positive numbers from the negative numbers, while being neither positive nor negative
+Zero acts as the common reference point to separate the positive numbers from the negative numbers, while itself being neither positive nor negative
 
 Then consider having zero apples
 
@@ -24,11 +24,19 @@ Odds are,
 
 you have zero apples right now!
 
+Another, more fundamentally sound definition of zero would be "the number that when added to another number gives a sum of the other number"
+
+Hmmm i suppose a less rigid definition of zero would be "a number that is its own negative"
+
+But that definition feels way less helpful than the others
+
 ## Do You Appreciate Zero
 
-Now that you've given zero more consideration than you've likely ever done before ...
+Now that you've given zero more consideration than ever before in your life!
 
-Do you appreciate?
+... at least, most likely, unless you've taken some advanced mathematics courses ...
+
+Do you appreciate it?
 
 Do you feel a sense of gratitude for the greatness that is the number zero?!?
 
@@ -38,9 +46,9 @@ Haha probably not!
 
 Zero is like those little electrons that power the early 21st century
 
-No one pays them much mind
+No one pays much attention to them
 
-& yet the 21st century could not function without them!
+& yet the 21st century could not function without either of them!
 
 ## What Comes Next?
 
@@ -50,4 +58,4 @@ But to be extra clear
 
 The next number after zero that should be discussed is ...
 
-The number ONE!
+The number **one**!

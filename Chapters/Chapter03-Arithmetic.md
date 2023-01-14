@@ -102,23 +102,25 @@ Can you determine what the inverse function, called B, must be?
 
 Function B subtracts 5 to any input number
 
-In fancy math write-up,
+In common fancy math write-up,
 
-function A would commonly be written as: f(x) = x + 5
+function A would be written as: A(x) = x + 5
 
-then function B as: g(x) = x - 5
+then function B written as: B(x) = x - 5
 
-### Testing For Inverses
+Quick side note: the letters A & B are trivial; we can pick ANY symbol we desire to "label" our functions
 
-We "test" if the functions f() & g() are inverses of each other by "plugging them" into each other
+### Testing For an Inverse Function
+
+We "test" if the functions A() & B() are inverses of each other by "plugging them" into each other
 
 This might look strange ...
 
-f(g(x)) means to first do all the operations that g() wants to do on x & THEN take that output and use it as an input to f()
+A(B(x)) means to first do all the operations that B() wants to do on x & THEN take that output and use it as an input to A()
 
 so ...
 
-f(g(x)) = f(x - 5) = (x - 5) + 5 = x - (5 + 5) = x - 0 = x
+A(B(x)) = A(x - 5) = (x - 5) + 5 = x - (5 + 5) = x - 0 = x
 
 Oops!
 
@@ -126,7 +128,7 @@ I used another fancy property there ...
 
 the "Associative Property of Addition"
 
-### Associative Property of Addition
+#### Associative Property of Addition
 
 The Associative Property of Addition states it is "mathematically okay" to move around those paraenthesis for (x - 5) + 5
 
@@ -136,55 +138,69 @@ Addition only allows us to add 1 number to another number
 
 But it keeps quiet about simultaneously adding 3 numbers together
 
-### Testing For Inverses, Part II
+### Testing For an Inverse Function ~ Part II
 
 To be thorough,
 
-simply finding that f(g(x)) = x is only Step 1 of the process
+simply finding that A(B(x)) = x is only Step 1 of the process
 
-It must ALSO be true that doing the f() function first & then plugging into g() yields x
+It must ALSO be true that doing the A() function first & then plugging into B() yields x
 
-In our example,
+For our above example,
 
-g(f(x)) = g(x + 5) = (x + 5) - 5 = x + (5 - 5) = x + 0 = x
+B(A(x)) = B(x + 5) = (x + 5) - 5 = x + (5 - 5) = x + 0 = x
 
 Therefore,
 
 yes!
 
-f() & g() are inverses of each other
+A() & B() are inverse functions of each other
 
 ## Multiplication
 
-If we are thinking of addition as "fast counting",
+If we view addition as "fast counting",
 
 then mulicplication is "fast addition"
 
+Learning how to multiple helps us to "add up" clusters of quantites
+
+How much would 4 "clusters" with each cluster containing 7 items
+
+Why that's 4 * 7!
+
+Better known as 28
+
 ## Division
 
-In that same vein,
+Traveling down that same river,
 
 division is "fast subtraction"
 
 Asking A / B is the same as asking "How many times can B be subtracted from A?"
 
-From this angle,
+From this point of view,
 
 it is clear that "diving by 0" makes no sense
 
 Because subtracting 0 from anyting brings you directly back to THAT THING
 
+It's like ... kinda the definition of zero
+
 Thus,
 
 you would enter a never-ending loop ...
 
-an infinite loop
+an infinite loop ...
+
+of continuously trying to subtract yet another zero
 
 ## Exponents, or Exponentiation
 
 Raising a number to a power, or exponentiation, is then "fast multiplication"
 
 To my knowledge here on 2022.12.29 ... we don't get a "fast exponentiation"
+
+... at least ... not in "normal everyday math"
 
 ## A Factorial Tease
 
@@ -194,4 +210,31 @@ there are functions that "grow" / "tend toward infinity" faster than exponentiat
 
 Again,
 
-a story for a later chapter!
+tho,
+
+let's save that "fact"-orial for a later chapter!
+
+## Order of Operations
+
+Hopefully you've all heard of PEMDAS
+
+If not,
+
+then do I have a trick for you!
+
+Do you ever have trouble remember the order that you're supposed to simply a bunch of arithmetic operations?
+
+PEMDAS is the mneumonic device to help remember ...
+
+- Parantheses
+- Exponents
+- Multiplication / Division
+- Addition / Subtraction
+
+I put "Multiplication / Division" and "Addition / Subtraction" on shared lines since the division and subtraction are the inverse operations of multiplication and addition
+
+So in other words,
+
+any division can be written instead as a multiplication,
+
+and any subtraction can be written instead as an addition
